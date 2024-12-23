@@ -1,0 +1,122 @@
+[
+    {
+        "comentario": "Produto excelente, atendeu todas as expectativas!",
+        "estado": "SP",
+        "data": "2024-12-20",
+        "categoria": "positivo"
+    },
+    {
+        "comentario": "Não gostei do produto, veio com defeito.",
+        "estado": "RJ",
+        "data": "2024-12-21",
+        "categoria": "negativo"
+    },
+    {
+        "comentario": "Entrega rápida e produto bem embalado.",
+        "estado": "MG",
+        "data": "2024-12-22",
+        "categoria": "positivo"
+    },
+    {
+        "comentario": "Achei caro pelo que oferece.",
+        "estado": "BA",
+        "data": "2024-12-20",
+        "categoria": "negativo"
+    },
+    {
+        "comentario": "Atendimento ao cliente foi ótimo.",
+        "estado": "RS",
+        "data": "2024-12-21",
+        "categoria": "positivo"
+    },
+    {
+        "comentario": "Produto chegou quebrado.",
+        "estado": "PE",
+        "data": "2024-12-22",
+        "categoria": "negativo"
+    },
+    {
+        "comentario": "Cumpriu o que prometeu, muito bom!",
+        "estado": "PR",
+        "data": "2024-12-20",
+        "categoria": "positivo"
+    },
+    {
+        "comentario": "Não vale o preço, bem inferior.",
+        "estado": "CE",
+        "data": "2024-12-21",
+        "categoria": "negativo"
+    },
+    {
+        "comentario": "Produto razoável, esperava mais.",
+        "estado": "GO",
+        "data": "2024-12-22",
+        "categoria": "negativo"
+    },
+    {
+        "comentario": "Recomendo, qualidade ótima!",
+        "estado": "AM",
+        "data": "2024-12-20",
+        "categoria": "positivo"
+    },
+    {
+        "comentario": "Não recebi o produto até agora.",
+        "estado": "SC",
+        "data": "2024-12-21",
+        "categoria": "negativo"
+    },
+    {
+        "comentario": "Compra fácil, voltarei a comprar.",
+        "estado": "ES",
+        "data": "2024-12-22",
+        "categoria": "positivo"
+    },
+    {
+        "comentario": "Produto veio diferente do anunciado",
+        "estado": "PA",
+        "data": "2024-12-20",
+        "categoria": "negativo"
+    },
+    {
+        "comentario": "Entrega super rápida, parabéns!",
+        "estado": "MT",
+        "data": "2024-12-21",
+        "categoria": "positivo"
+    },
+    {
+        "comentario": "Não gostei da embalagem.",
+        "estado": "AL",
+        "data": "2024-12-22",
+        "categoria": "negativo"
+    },
+    {
+        "comentario": "Produto muito bom pelo preço.",
+        "estado": "MS",
+        "data": "2024-12-20",
+        "categoria": "positivo"
+    },
+    {
+        "comentario": "Não recomendo, qualidade baixa.",
+        "estado": "PI",
+        "data": "2024-12-21",
+        "categoria": "negativo"
+    },
+    {
+        "comentario": "Gostei bastante, superou expectativas!",
+        "estado": "MA",
+        "data": "2024-12-22",
+        "categoria": "positivo"
+    },
+    {
+        "comentario": "Produto satisfatório, nada excepcional.",
+        "estado": "RO",
+        "data": "2024-12-20",
+        "categoria": "neutro"
+    },
+    {
+        "comentario": "Péssima experiência, não comprarei de novo.",
+        "estado": "RR",
+        "data": "2024-12-21",
+        "categoria": "negativo"
+    }
+]
