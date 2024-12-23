@@ -42,13 +42,13 @@
         "categoria": "positivo"
     },
     {
-        "comentario": "Não vale o preço, bem inferior.",
+        "comentario": "Não vale o preço, bem inferior",
         "estado": "CE",
         "data": "2024-12-21",
         "categoria": "negativo"
     },
     {
-        "comentario": "Produto razoável, esperava mais.",
+        "comentario": "Produto razoçvel, esperava mais.",
         "estado": "GO",
         "data": "2024-12-22",
         "categoria": "negativo"
@@ -72,13 +72,13 @@
         "categoria": "positivo"
     },
     {
-        "comentario": "Produto veio diferente do anunciado",
+        "comentario": "Produto veio diferente do anunciado.",
         "estado": "PA",
         "data": "2024-12-20",
         "categoria": "negativo"
     },
     {
-        "comentario": "Entrega super rápida, parabéns!",
+        "comentario": "Entrega super rápida, parabés!",
         "estado": "MT",
         "data": "2024-12-21",
         "categoria": "positivo"
