@@ -15,18 +15,17 @@ This project, **TSI-LLM**, is a collection of Jupyter notebooks and Python scrip
 
 The project is organized into the following key directories:
 
-*   **`notebooks/`:** This directory contains the Jupyter notebooks, the core of the project's educational and experimental content. Each notebook focuses on a specific aspect of NLP or ML.
+*   **Jupyter notebooks:** All notebooks are stored at the repository root and form the core of the project's educational and experimental content.
     *   Examples:
-        *   `text_embedding.ipynb`: Demonstrates text embedding techniques.
-        *   `data_parsing.ipynb`: Shows how to parse and process different data formats.
-        *   `prompt_engineering.ipynb`: contains examples of prompt engineering.
-        * `open_source_models.ipynb`: Illustrates how to use different open-source models.
-        * `vector_database.ipynb`: Shows how to work with vector databases.
+        *   `langchain-ollama-un02.ipynb`: demonstrates using LangChain with local models.
+        *   `embedding-mxbai-un03.ipynb`: explores embedding texts.
+        *   `prompt-un06.ipynb`: contains prompt engineering examples.
+        *   `test_rag-un08.ipynb`: shows a simple RAG experiment.
 
 *   **`rag/`:** This directory houses Python scripts dedicated to RAG operations. These scripts provide the functionality for implementing and testing various RAG strategies.
     *   Examples:
-        * `rag_retrieval.py`: contains the main logic to retrieve information from the database.
-        * `rag_generation.py`: contains the logic for generating response using the LLM.
+        * `retrieval.py`: contains the main logic to retrieve information from the database.
+        * `generation.py`: contains the logic for generating responses using the LLM.
 
 *   **`data/`:** This directory stores the various data files used throughout the project. These include:
     *   PDF documents
@@ -58,18 +57,17 @@ Este projeto, **TSI-LLM**, é uma coleção de notebooks Jupyter e scripts Pytho
 
 O projeto está organizado nos seguintes diretórios-chave:
 
-*   **`notebooks/`:** Este diretório contém os notebooks Jupyter, o núcleo do conteúdo educacional e experimental do projeto. Cada notebook se concentra em um aspecto específico de NLP ou ML.
+*   **Notebooks Jupyter:** Os notebooks ficam na raiz do repositório e são o núcleo do conteúdo educacional e experimental do projeto.
     *   Exemplos:
-        *   `text_embedding.ipynb`: Demonstra técnicas de incorporação de texto.
-        *   `data_parsing.ipynb`: Mostra como analisar e processar diferentes formatos de dados.
-        *   `prompt_engineering.ipynb`: contém exemplos de engenharia de prompts.
-        *   `open_source_models.ipynb`: Ilustra como usar diferentes modelos de código aberto.
-        *   `vector_database.ipynb`: Mostra como trabalhar com bancos de dados vetoriais.
+        *   `langchain-ollama-un02.ipynb`: demonstra o uso do LangChain com modelos locais.
+        *   `embedding-mxbai-un03.ipynb`: explora incorporação de textos.
+        *   `prompt-un06.ipynb`: contém exemplos de engenharia de prompts.
+        *   `test_rag-un08.ipynb`: mostra um experimento simples de RAG.
 
 *   **`rag/`:** Este diretório abriga scripts Python dedicados a operações RAG. Esses scripts fornecem a funcionalidade para implementar e testar várias estratégias RAG.
     *   Exemplos:
-        *   `rag_retrieval.py`: contém a lógica principal para recuperar informações do banco de dados.
-        *   `rag_generation.py`: contém a lógica para gerar respostas usando o LLM.
+        *   `retrieval.py`: contém a lógica principal para recuperar informações do banco de dados.
+        *   `generation.py`: contém a lógica para gerar respostas usando o LLM.
 
 *   **`data/`:** Este diretório armazena os vários arquivos de dados usados em todo o projeto. Isso inclui:
     *   Documentos PDF
