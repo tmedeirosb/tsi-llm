@@ -15,14 +15,15 @@ from langchain.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.embeddings import OllamaEmbeddings
 from langchain.vectorstores import FAISS
+from typing import Optional
 
 def ingest_data(
-    pdf_path: str, 
-    index_path: str = "faiss_index", 
+    pdf_path: str,
+    index_path: str = "faiss_index",
     chunk_size: int = 1000,
     chunk_overlap: int = 50,
     update_existing_db: bool = True
-) -> FAISS:
+) -> Optional[FAISS]:
     """
     Função principal do módulo de ingestão que:
       1. Carrega o PDF e divide em chunks.
@@ -30,9 +31,10 @@ def ingest_data(
          - Se existir:
              - Se 'update_existing_db' for True, adiciona novos documentos.
              - Caso contrário, apenas carrega a base.
-         - Se não existir, cria uma nova base FAISS a partir dos chunks.
+        - Se não existir, cria uma nova base FAISS a partir dos chunks.
       3. Salva/atualiza a base FAISS localmente.
       4. Exibe o tamanho da base após a inserção.
+      5. Caso nenhum texto seja encontrado, informa e retorna ``None``.
 
     Parâmetros:
     -----------
@@ -51,8 +53,8 @@ def ingest_data(
 
     Retorno:
     --------
-    db : FAISS
-        Base vetorial contendo embeddings dos documentos processados.
+    db : Optional[FAISS]
+        Base vetorial contendo embeddings dos documentos processados ou ``None`` se nenhum texto for encontrado.
     """
 
     # 1. Carregando o PDF e dividindo em chunks
@@ -99,6 +101,9 @@ def ingest_data(
             current_count = db.index.ntotal
             print(f"Tamanho atual da base: {current_count}")
     else:
+        if not texts:
+            print("Nenhum texto encontrado; impossível criar a base FAISS.")
+            return None
         print("Nenhuma base FAISS encontrada. Criando uma nova base...")
         db = FAISS.from_documents(texts, embeddings)
 
