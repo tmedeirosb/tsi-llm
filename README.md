@@ -81,3 +81,14 @@ O projeto está organizado nos seguintes diretórios-chave:
 Para começar com este projeto, clone o repositório e explore os notebooks e scripts. Você precisará ter um ambiente Python configurado com as dependências necessárias (listadas em `requirements.txt`, se fornecido). Abra os notebooks no Jupyter e acompanhe os exemplos de código.
 
 Aproveite a exploração do fascinante mundo de NLP e ML com TSI-LLM!
+
+## Running Tests
+
+The repository now includes simple unit tests for the RAG modules. After
+installing the required dependencies, run them with:
+
+```bash
+pytest
+```
+
+The tests exercise the ingestion, retrieval and answer generation functions.
