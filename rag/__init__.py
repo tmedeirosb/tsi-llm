@@ -11,3 +11,4 @@ Deixa explícito que a pasta 'rag' é um módulo Python.
 # from .ingestion import ingest_data, clear_db
 # from .retrieval import get_relevant_docs
 # from .generation import generate_answer
+
